@@ -199,6 +199,23 @@ export default function Home() {
         </ul>
       </section>
 
+      <section className="cta-band">
+        <div className="cta-band-inner">
+          <p className="cta-band-eyebrow">L&apos;application est disponible dès maintenant</p>
+          <h2 className="cta-band-title">
+            Débriefez votre prochaine sortie avec Cairn
+          </h2>
+          <p className="cta-band-text">
+            Créez un débrief en quelques minutes, invitez votre groupe, et
+            gardez une trace utile pour la prochaine fois.
+          </p>
+          <Link href="/nouveau" className="btn-cta-band">
+            Créer mon débrief
+            <span className="arrow" aria-hidden="true">→</span>
+          </Link>
+        </div>
+      </section>
+
       <section>
         <p className="eyebrow">§ 03 — La démarche</p>
         <h2 className="section-title">Une démarche alignée</h2>

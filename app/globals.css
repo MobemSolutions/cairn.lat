@@ -1696,6 +1696,72 @@ footer .coord {
   color: var(--muted);
 }
 
+/* ─── CTA band (pleine largeur) ──────────────────────────── */
+.cta-band {
+  background: var(--forest);
+  color: var(--paper-warm);
+  padding: 64px 0;
+  border-top: none;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.cta-band-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.cta-band-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--paper-warm);
+  opacity: 0.7;
+  margin: 0 0 14px;
+}
+.cta-band-title {
+  font-size: var(--fs-h2);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--paper-warm);
+  margin: 0 0 14px;
+  text-wrap: balance;
+}
+.cta-band-text {
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--paper-warm);
+  opacity: 0.82;
+  margin: 0 0 28px;
+  max-width: 52ch;
+}
+.btn-cta-band {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--forest-deep);
+  text-decoration: none;
+  background: var(--paper-warm);
+  padding: 13px 22px;
+  border-radius: 2px;
+  transition: background 0.15s ease;
+}
+.btn-cta-band:hover {
+  background: #fff;
+}
+.btn-cta-band .arrow {
+  transition: transform 0.15s ease;
+}
+.btn-cta-band:hover .arrow {
+  transform: translateX(3px);
+}
+
 /* ─── Password field ─────────────────────────────────────── */
 .password-wrapper {
   position: relative;
